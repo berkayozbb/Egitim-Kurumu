@@ -1,0 +1,315 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.header {
+  height: 100vh;
+  background: linear-gradient(rgba(30, 35, 50, 0.7), rgba(105, 105, 120, 0.8)),
+    url("https://images.pexels.com/photos/301926/pexels-photo-301926.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  animation: image 5s infinite alternate;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+}
+
+@keyframes image {
+  0% {
+    background: linear-gradient(
+        rgba(30, 35, 50, 0.85),
+        rgba(105, 105, 120, 0.8)
+      ),
+      url("https://mcdn.wallpapersafari.com/medium/81/53/mz2on3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+  }
+
+  50% {
+    background: linear-gradient(
+        rgba(30, 35, 50, 0.95),
+        rgba(105, 105, 120, 0.88)
+      ),
+      url("https://www.pixelstalk.net/wp-content/uploads/2016/11/HD-Education-Photos.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    opacity: 0.82;
+  }
+
+  100% {
+    background: linear-gradient(rgba(30, 35, 50, 0.7), rgba(105, 105, 120, 0.7)),
+      url("https://mcdn.wallpapersafari.com/medium/91/53/uEimhe.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+  }
+}
+
+nav {
+  background-color: #33333300;
+  padding: 10px;
+}
+
+nav label {
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px;
+}
+
+nav label span {
+  display: block;
+  background-color: #ffffff;
+  height: 2px;
+  width: 25px;
+  margin: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+nav input[type="checkbox"] {
+  display: none;
+}
+
+nav input[type="checkbox"]:checked ~ ul {
+  display: block;
+}
+
+nav input[type="checkbox"]:checked ~ label span:nth-of-type(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+nav input[type="checkbox"]:checked ~ label span:nth-of-type(2) {
+  opacity: 0;
+}
+
+nav input[type="checkbox"]:checked ~ label span:nth-of-type(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+nav ul {
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  padding: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+nav ul li :hover {
+  color: gray;
+  text-decoration: none;
+}
+
+.card {
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  position: relative;
+  margin-top: 5%;
+}
+
+.cardBaslik1 {
+  width: 256px;
+  height: 250px;
+  background: url("https://cdn-icons-png.flaticon.com/256/3950/3950815.png");
+  position: absolute;
+  top: -170px;
+  left: 75px;
+  border-radius: 20px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.cardBaslik2 {
+  width: 256px;
+  height: 250px;
+  background: url("https://cdn-icons-png.flaticon.com/256/4739/4739399.png");
+  position: absolute;
+  top: -170px;
+  left: 75px;
+  border-radius: 20px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.cardBaslik3 {
+  width: 256px;
+  height: 250px;
+  background: url("https://cdn-icons-png.flaticon.com/256/4275/4275127.png");
+  position: absolute;
+  top: -170px;
+  left: 75px;
+  border-radius: 20px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.cardBody {
+  padding: 20px;
+  margin-top: 80px;
+  text-align: center;
+}
+
+.line {
+  border-top: 2px solid gray;
+}
+
+.arch img {
+  max-width: 100%;
+  border-radius: 30px;
+}
+
+.login-panel {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="email"] {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+  transition: 0.3s;
+}
+
+.icon {
+  max-width: 20px;
+}
+
+.numbers {
+  display: inline;
+}
+
+.header-contact {
+  height: 100vh;
+}
+
+.contact-body {
+  background-color: rgba(163, 158, 158, 0.75);
+}
+
+.login-body {
+  background-color: rgba(60, 99, 92, 0.75);
+}
+
+.footer .footer-content .content-left ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer .footer-content .content-left ul li {
+  padding: 10px;
+}
+
+.footer .footer-content .content-left ul li a {
+  color: #000000;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.footer .footer-content .content-left ul li :hover {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    /* animation-name: none; */
+    height: 100vh;
+    background: linear-gradient(rgba(30, 35, 50, 0.7), rgba(105, 105, 120, 0.8)),
+      url("https://www.pixelstalk.net/wp-content/uploads/2016/11/HD-Education-Photos.jpg");
+  }
+}
+
+/* @media screen and (max-width: 918px) {
+  .date {
+    padding: 0;
+  }
+} */
+
+@media screen and (max-width: 1400px) {
+  .cardBaslik1 {
+    left: 50px;
+  }
+
+  .cardBaslik2 {
+    left: 50px;
+  }
+
+  .cardBaslik3 {
+    left: 50px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .cardBaslik1 {
+    display: none;
+  }
+
+  .cardBaslik2 {
+    display: none;
+  }
+
+  .cardBaslik3 {
+    display: none;
+  }
+
+  .cardBody {
+    margin-top: 0;
+  }
+}
