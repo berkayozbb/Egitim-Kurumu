@@ -1,4 +1,5 @@
 Bir eğitim kurumuna ait ufak çaplı site şablonu. HTML, CSS ve JavaScript kullanılarak hazırlandı. 
+
 HEADER
 ![header](https://user-images.githubusercontent.com/116227509/221358469-00e08dee-8cf8-4204-aa47-ae0a06937f7f.png)
 Sol üstte bulunan hamburger menü site içerisinde dolaşmamıza referans oluyor, yol haritamızı
@@ -27,6 +28,7 @@ SİTE GENEL BAKIŞ
 ![siteSS](https://user-images.githubusercontent.com/116227509/221358536-c1f6b0af-5af5-4c7a-b9a2-edb7858a65fc.png)
 
 Site Mobil Responive’e Sahip
+
 ![responsive](https://user-images.githubusercontent.com/116227509/221358568-3d53d7b3-6db2-42dc-992c-e79b8d4448a0.png)![responsive Login](https://user-images.githubusercontent.com/116227509/221358575-54690340-d5e4-45bf-b451-8153a15a964a.png)
 ![responsive iletisim](https://user-images.githubusercontent.com/116227509/221358584-dd11e14f-ffc1-4e64-b386-1828322df7cf.png)![responsive2](https://user-images.githubusercontent.com/116227509/221358590-b659db60-a874-4eae-8d7e-faca229596e1.png)
 
