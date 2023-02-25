@@ -32,4 +32,4 @@ Site Mobil Responive’e Sahip
 ![responsive](https://user-images.githubusercontent.com/116227509/221358568-3d53d7b3-6db2-42dc-992c-e79b8d4448a0.png)![responsive Login](https://user-images.githubusercontent.com/116227509/221358575-54690340-d5e4-45bf-b451-8153a15a964a.png)
 ![responsive iletisim](https://user-images.githubusercontent.com/116227509/221358584-dd11e14f-ffc1-4e64-b386-1828322df7cf.png)![responsive2](https://user-images.githubusercontent.com/116227509/221358590-b659db60-a874-4eae-8d7e-faca229596e1.png)
 
-Canlıya alınmış link “http://berkayozbabaegitimkurumu.orgfree.com/”
+Canlıya alınmış link http://berkayozbabaegitimkurumu.orgfree.com/
